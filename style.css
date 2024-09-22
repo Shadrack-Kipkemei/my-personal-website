@@ -2,7 +2,12 @@
 .topnav {
     background-color: black;
     overflow: hidden;
+   
+   
+   
 }
+
+
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -11,6 +16,7 @@
     padding: 12px 14px;
     text-decoration: none;
     font-size: 20px;
+    
 }
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -34,6 +40,7 @@ section {
 }
 .home-img img {
     width: 35vw;
+    
 }
 .home-content h3 {
     font-size: 3.2rem;
@@ -216,3 +223,7 @@ span {
     font-size: 2.4rem;
     color: var(--second-bg-color);
 }
+#menu-icon {
+    display: block;
+}
+
