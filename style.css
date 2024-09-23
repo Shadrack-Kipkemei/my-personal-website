@@ -36,10 +36,11 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: whitesmoke;
+    background: rgb(109, 103, 131);
 }
 .home-img img {
     width: 35vw;
+
     
 }
 .home-content h3 {
