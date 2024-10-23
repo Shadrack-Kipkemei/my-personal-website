@@ -42,8 +42,12 @@ a:visited {
     color: #0F1414;
 }
 
-a:active {
-    color: #ADD6D6;
+a:hover {
+    color: red;
+}
+
+a.active {
+    color: #db1414;
     text-decoration: underline;
 }
 
@@ -57,11 +61,31 @@ a:active {
     display: flex;
     align-items: center;
     background-color: #E0F0F0;
-    height: 80vh;
+    height: 100vh;
     padding: 0 20px;
 }
 
 .home-image {
     object-fit: cover;
+}
+
+#about-me {
+    padding: 1em;
+    background-color: #F5FAFA;
+    text-align: center;
+}
+
+#about-me h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about-me p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
