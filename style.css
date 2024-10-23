@@ -89,3 +89,33 @@ a.active {
     margin-right: auto;
 }
 
+#skills {
+    padding: 50px 20px;
+    background-color: #E0F0F0;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills-list img {
+    background-color:#0F1414;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
